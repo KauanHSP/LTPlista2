@@ -3,7 +3,10 @@ export default class cachorro {
     raca: string;
 
     constructor(nome:string, raca:string){
-        this.nome
-        this.raca     
+        this.nome = nome
+        this.raca = raca    
+    }
+    latir(): void {
+        console.log("au au !")
     }
 }
